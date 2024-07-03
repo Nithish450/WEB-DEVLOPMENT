@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    
+}
+body{
+    background-color: black;
+}
+
+  
+#gp{
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    font-size: 32px;
+
+}
+#h{
+    background-color: black;
+    position: relative;
+    height: 65px;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 11;
+}
+span{
+    color:#ffc451;
+}
+.options{
+    display: inline;
+    padding: 10px;
+
+}
+.menu-name{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.menu-name:hover{
+    color: #ffc451;
+    cursor: pointer;
+
+}
+#menu{
+    position: absolute;
+    left: 500px;
+    top: 21px;
+}
+#btn{
+    position: absolute;
+    right: 150px;
+    top: 13px;
+    border-radius: 5px;
+    padding: 8px 30px;
+    border: 2px solid #ffc451;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+#btn:hover{
+    border: 2px solid #ffc451;
+    background: #ffc451;
+    color: black;
+}
+.active{
+    color: #ffc451  ;
+}
+.background-banner
+{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(./banner.jpg);
+    
+    }
+#content{
+    position: relative;
+    font-size: 56px;
+    font-weight: 700px;
+    color: white;
+}
+#total-content{
+    text-align: center;
+    margin-top: 110px;
+}
+#sub-content{
+    position: relative;
+    font-size: 24px;
+    color: white;
+    left: 0px;
+    top: 10px;
+}
+#btn-e{
+   
+    border-radius: 5px;
+    padding: 8px 30px;
+    border: 2px solid #ffc451;
+    background: black;
+    color: white;
+    margin-top: 3%;
+   
+    cursor: pointer;
+
+
+}
+#btn-e:hover{
+    border: 2px solid #ffc451;
+    background: #ffc451;
+    color: black;
+}
+.box{
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    border: 2px solid #ffc451;
+    text-align: center;
+    border-radius: 10px;
+    background-color: black;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: #ffc451;
+    color: black;
+    transform: scale(1.1);
+}
+#service{
+    background: black;
+    color: white;
+    text-align: center;
+}
+#ser{
+    text-align: center;
+}
+
+.contact{
+    width: 22%;
+    margin-left: 40px;
+}
+#post-footer{
+    background-color: rgb(46, 45, 45);
+    color: white;
+    display: flex;
+    height: 230px;
+    margin-top: 30px;
+
+}
+.b1{
+    background-color: rgb(46, 45, 45);
+}
+.b2{
+    background-color: rgb(46, 45, 45);
+}
+.b3{
+    background-color: rgb(46, 45, 45);
+}
+ul {
+    list-style-type: none;
+  }
+#contact1{  
+    text-decoration: none;
+    margin-top:30px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+#subscribe{
+    background-color: #ffc451;
+    height: 55px;
+    width:100px;
+    position: relative;
+    right: 5px;
+    top: 10px;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+} 
+#sub{
+    height: 50px;
+    width:200px;
+    background-color: rgb(62, 62, 62);
+    position: relative;
+    top: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.fa-brands{
+    background-color: rgb(62, 62, 62);
+    border: 2px solid #ffc451;
+    color: #ffc451;
+    border-radius: 50%;
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+   
+}
+.fa-brands:hover{
+    background-color: #ffc451;
+    border: 2px solid #ffc451;
+    color: rgb(62, 62, 62);
+    border-radius: 50%;
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    padding: 10px;
+   
+}
+.fa-bars{
+    display: none !important;
+    
+}
+li{
+    line-height: 40px;
+}
+#addr{
+    display: flex;
+}
+#call{
+    display: flex;
+}
+#mail{
+    display: flex;
+}
+#map-main{
+    margin-top: 20px;
+}
+#map-align{
+    width: 40%;
+}
+#m{
+    width: 400px;
+    height: 200px;
+}
+#map-section{
+    display: flex;
+    margin-left: 50px;
+    line-height: 40px;
+    color: white;
+}
+label{
+    font-size:16px;
+}
+#name-email{
+    display: flex;
+}
+#name-area{
+    display: block;
+    width: 300px;
+    height: 40px;
+    border: 2px solid #ffc451;
+}
+.fa-solid{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    color: #ffc451;
+    display: none;
+}
+#email-name{
+    margin-left: 50px;
+}
+#map-contact{
+    text-align: center  ;
+    font-size: 24px;
+    color: white;
+}
+#message-btn{
+    margin-top: 40px;
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid #ffc451;
+    font-size: 20px;
+    border-radius: 25px;
+}
+#message-area{
+    border: 2px solid #ffc451;
+
+}
+#message{
+    margin-top: 20px;
+}
+.fa-bars{
+    display: none !important;
+}
+@media screen and (min-width:480px) and (max-width:600px){
+    #menu,#btn{
+        display: none;
+    }
+    .fa-bars{
+        display: block !important;
+        color: white;
+        position: absolute;
+        left: 550px;
+        font-size: 30px;
+        top: 15px;
+    }
+    #content{
+        position: absolute;
+        font-size: 36px;
+        font-weight: 700px;
+        color: white;
+       
+    }
+    #contact1{
+        position: absolute;
+    }
+    #total-content{
+        
+        margin-left: 35%;
+    }
+    #sub-content{
+       margin-top: 100px;
+    }
+    #btn-e{
+        border-radius: 5px;
+        padding: 8px 30px;
+        border: 2px solid #ffc451;
+        background: black;
+        color: white;
+        margin-top: 5%;
+        cursor: pointer;    
+    }
+   .background-banner
+    {
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        background:black
+        }
+    #service{
+        position: absolute;
+        top: 500px;
+        z-index: 10;
+        width: 650px;
+        text-align: center;
+    }
+    .box{
+        display: inline-block;
+        width: 80%;
+        margin: 20px;
+        border: 2px solid #ffc451;
+        text-align: center;
+        border-radius: 10px;
+        background-color: black;
+        cursor: pointer;
+        margin-left: 5%;
+    }
+  
+    #h{
+        width: 650px;
+    }
+    #ser{
+        position: absolute;
+        top: -25px;
+        left:275px
+    }
+    #subscribe{
+        background-color: #ffc451;
+        height: 35px;
+        width:70px;
+        position: relative;
+        top: 10px;
+        cursor: pointer;
+        border-radius: 0px 5px 5px 0px;
+    } 
+    #sub{
+        display: none;
+    }
+    .fa-brands{
+        background-color: rgb(62, 62, 62);
+        border: 2px solid #ffc451;
+        color: #ffc451;
+        border-radius: 50%;
+        font-size: 20px;
+        height: 20px;
+        width: 20px;
+        margin: 5px;
+        padding: 5px;
+        cursor: pointer;
+       
+    }
+   
+    .b2{
+        position: absolute;
+        top: 1350px;
+        width: 600px;
+        background: black;
+    }
+    .b3{
+        position: absolute;
+        top: 1550px;
+        width: 600px;
+        background: black;
+
+    }
+    .b4{
+        position: absolute;
+        top: 1750px;
+        width: 600px;
+        background: black;
+
+    }
+    .b1{
+        position: absolute;
+        top: 1100px;
+        width: 600px;
+        background: black;
+    }
+    h1{
+        color: #ffc451;
+    }
+    
+
+   
+   
+}
+

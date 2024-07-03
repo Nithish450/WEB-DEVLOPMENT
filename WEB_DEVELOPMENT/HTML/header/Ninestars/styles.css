@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+    
+}
+#Bethany{
+    position: absolute;
+    top: 15px;
+    font-weight: 400;
+    font-size: 32px;
+    color: #7a6960;
+    left: 100px;    
+
+}
+body{
+    overflow-x : hidden;
+}
+  
+#bethany{
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 50px;
+    font-size: 32px;
+
+}
+
+#h{
+    background-color:white;
+    height: 65px;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    overflow: hidden;
+    z-index:10;
+}
+span{
+    color:#ffc451;
+}
+.options{
+    display: inline;
+    padding: 10px;
+
+}
+.menu-name{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.menu-name:hover{
+    color:#EB5D1E;
+    cursor: pointer;
+
+}
+#menu{
+    position: absolute;
+    left: 700px;
+    top: 21px;
+}
+#btn{
+    position: absolute;
+    right: 100px;
+    top: 13px;
+    border-radius: 25px;
+    padding: 8px 30px;
+    border: 2px solid #EB5D1E;
+    background: #EB5D1E;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+#btn:hover{
+    background: #ee8152;
+    border: 2px solid #ee8152 ;
+
+
+}
+.active{
+    color: #EB5D1E ;
+}
+
+#content{
+    position: relative;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 56px;
+    left: 100px;
+}
+#total-content{
+    margin-top: 200px;
+}
+#sub-content{
+    position: relative;
+    font-size: 20px;
+    color: white;
+    left: 100px;
+    font-weight: 400;
+    top: 20px;
+    color: black;
+}
+#btn-e{
+   
+    border-radius: 5px;
+    padding: 8px 30px;
+    border: 2px solid #EB5D1E;
+    background: #EB5D1E;
+    color: white;
+    margin-top: 3%;
+    margin-left: 100px;
+    cursor: pointer;
+    border-radius: 15px;
+
+
+}
+#btn-e:hover{
+    border: 2px solid #ee8152;
+    color: black;
+    background-color: #ee8152;
+}
+#image{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    width: 600px;
+}
+#service{
+    margin-top: 100px;
+}
+#ser{
+    font-size: 30px;
+    text-align: center;
+}
+.box{
+    width: 250px;
+    height: 150px;
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 50px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 1px 1px 4px 4px grey;
+    cursor: pointer;
+}
+
+.fa-solid{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.fa-solid:hover{
+    color: #EB5D1E;
+}
+h1{
+    margin-top: 10px;
+}
+
+#contact-title{
+    text-align: center;
+    
+}
+#post-footer{
+    display: flex;
+    margin-top: 30px;
+    background: #eee4df;
+}
+.b1{
+    flex: 2;
+    margin-left: 50px;
+}
+.b2{
+    flex: 1;
+}
+.b3{
+    flex: 1;
+}
+.b4{
+    flex:2;
+}
+ul{
+    list-style-type: none;
+    line-height: 40px;
+
+
+}
+li a{
+    text-decoration: none;
+    color: black;
+
+}
+.fa-brands{
+    background: #eee4df;
+    border: 2px solid #EB5D1E;
+    border-radius: 50%;
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+    padding: 10px;
+    color: #EB5D1E;
+    cursor: pointer;
+   
+}
+
+.fa-brands:hover{
+    background-color: #EB5D1E;
+    border: 2px solid #EB5D1E;
+    color: #eee4df;
+    border-radius: 50%;
+   
+   
+}.box:hover{
+    transform: scale(1.1);
+}
+#subscribe{
+    background-color: #EB5D1E;
+    height: 55px;
+    width:100px;
+    position: relative;
+    right: 5px;
+    top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+} 
+#sub{
+    height: 50px;
+    width:200px;
+    background-color: whitesmoke;
+    position: relative;
+    top: 10px;
+    border: none;
+}
+#addr{
+    display: flex;
+}
+#call{
+    display: flex;
+}
+#mail{
+    display: flex;
+}
+#map-main{
+    margin-top: 20px;
+}
+#map-align{
+    width: 40%;
+}
+#m{
+    width: 400px;
+    height: 200px;
+}
+#map-section{
+    display: flex;
+    margin-left: 50px;
+    line-height: 40px;
+}
+label{
+    font-size:16px;
+}
+#name-email{
+    display: flex;
+}
+#name-area{
+    display: block;
+    width: 300px;
+    height: 40px;
+}
+.fa-solid{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    color: #EB5D1E;
+    display: none;
+}
+#email-name{
+    margin-left: 50px;
+}
+#map-contact{
+    margin-top: 100px;
+    text-align: center  ;
+    font-size: 30px;
+}
+#message-btn{
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    background-color: #EB5D1E;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 25px;
+}
+#message{
+    margin-top: 20px;
+}
+.fa-bars{
+    display: none !important;
+}
+@media screen and (min-width:480px) and (max-width:600px){
+    #menu,#btn{
+        display: none;
+    }
+    #image{
+        display: none;
+    }
+    #h{
+        width: 90%;
+        margin-left: 0;
+    }
+    .fa-bars{
+        display: block !important;
+        color: black;
+        position: absolute;
+        left: 550px;
+        font-size: 30px;
+        top: 15px;
+    }
+    
+    #contact1{
+        position: absolute;
+    }
+    #sub-content{
+       margin-top: 200px;
+       margin-left: 0px;
+    }
+    #content{
+        position: absolute;
+        font-size: 36px;
+        font-weight: 700px;
+        color: #EB5D1E;
+        top:100px ;
+       
+    }
+    #btn-e{
+        border-radius: 5px;
+        padding: 8px 30px;
+        border: 2px solid #EB5D1E;
+        background: #EB5D1E;
+        color: white;
+        margin-top: 60px;
+        cursor: pointer;  
+        margin-left: 100px;  
+    }
+   .background-banner
+    {
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        }
+    #service{
+        position: absolute;
+        top: 400px;
+        z-index: 1;
+        width: 650px;
+        text-align: center;
+        left: 0px;
+    }
+    .box{
+        display: inline-block;
+        width: 40%;
+        margin: 20px;
+        text-align: center;
+        border-radius: 10px;
+        background-color: white;
+        cursor: pointer;
+        margin-left: 5%;
+    }
+  
+    #h{
+        width: 650px;
+    }
+    #ser{
+        position: absolute;
+        top: -35px;
+        left:265px
+    }
+    #subscribe{
+        background-color: #EB5D1E;
+        height: 40px;
+        width:70px;
+        position: relative;
+        top: 10px;
+        cursor: pointer;
+        border-radius: 0px 5px 5px 0px;
+    
+    } 
+
+    .fa-brands{
+        background-color: #EB5D1E;
+        border: 2px solid #EB5D1E;
+        color: white;
+        border-radius: 50%;
+        font-size: 20px;
+        height: 20px;
+        width: 20px;
+        margin: 5px;
+        padding: 5px;
+        cursor: pointer;
+       
+    }
+    #post-footer{
+        flex-direction: column;
+        width: 650px;
+        margin-top: 30px;
+    }
+    #contact-title{
+       margin-top: 250px;
+       margin-left: 170px;
+       
+    }
+    .contact{
+        margin-left: 50px;
+    }
+   
+
+    
+    
+
+   
+   
+}
+
+
